@@ -2,6 +2,7 @@
   font-family: Inter, Arial, Helvetica, sans-serif;
   background-color: black;
   color: white;
+  margin: 0 auto;
 }
 
 .page__section {
@@ -14,4 +15,9 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+@media screen and (max-width: 800px) {
+  .page__content {
+    margin: 0 auto;
+  }
 }
