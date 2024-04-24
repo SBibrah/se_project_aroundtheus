@@ -50,24 +50,3 @@
   height: 18px;
   border: 0;
 }
-
-@media screen and (max-width: 620px) {
-  .card {
-    padding-left: 0;
-  }
-  .card__list {
-    margin-top: 0;
-    padding-top: 0;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .card__list {
-    margin: 0;
-    padding: 0;
-    margin-right: 19px;
-    margin-left: 19px;
-    justify-content: start;
-  }
-}
