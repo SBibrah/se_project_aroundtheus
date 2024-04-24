@@ -21,6 +21,7 @@
   grid-area: button;
   margin-left: 18px;
   border: 1px solid #ffffff;
+  margin-right: 20px;
 }
 
 .profile__edit-button:hover {
@@ -33,7 +34,8 @@
   width: 150px;
   height: 50px;
   margin: 0 0 0 auto;
-  border: 2px;
+  border-radius: 2px;
+  border: 2px solid #ffffff;
   box-sizing: border-box;
 }
 
@@ -108,7 +110,7 @@
   }
   .profile__add-button {
     margin: 0;
-    width: 100%;
+    max-width: 282px;
   }
 }
 
@@ -135,7 +137,7 @@
   }
 
   .profile__add-button {
-    width: 282px;
+    max-width: 282px;
     margin: 36px 0 0;
   }
 }
