@@ -10,6 +10,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  margin: 0;
+  padding: 0;
 }
 
 .card__list {
@@ -24,7 +26,7 @@
 .card__image {
   width: 282px;
   height: 282px;
-  border-radius: 10px 10px 0 0;
+  object-fit: cover;
 }
 
 .card__description {
@@ -37,7 +39,6 @@
   padding-right: 20px;
   align-items: center;
   justify-content: space-between;
-  border-radius: 0 0 10px 10px;
 }
 
 .card__like-button:hover {
