@@ -16,7 +16,7 @@
   flex-direction: column;
   min-height: 100vh;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 970px) {
   .page__content {
     margin: 0 auto;
   }

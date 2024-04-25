@@ -81,7 +81,7 @@
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 800px) {
   .profile {
     flex-direction: column;
   }
@@ -144,11 +144,13 @@
     font-size: 14px;
     font-weight: 400;
     padding-bottom: 36px;
+    padding-top: 14px;
     margin: 0;
   }
   .profile__add-button {
     min-width: 282px;
     margin-top: 20px;
     margin: 0;
+    margin-right: 19px;
   }
 }
