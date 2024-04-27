@@ -1,6 +1,5 @@
 .profile {
   display: flex;
-  padding-top: 40px;
   align-items: center;
   border-bottom-width: 1px;
   max-width: 880px;
@@ -124,9 +123,6 @@
     line-height: 27px;
     max-width: 196px;
     text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
   .profile__info {
     display: flex;
@@ -150,7 +146,6 @@
     text-align: center;
     line-height: 16.94px;
     font-size: 14px;
-    font-weight: 400;
     padding-bottom: 36px;
     margin: 0;
   }
